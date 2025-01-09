@@ -1,0 +1,84 @@
+/*ESTILOS RESET */
+
+* {
+    font-family: Roboto;
+}
+
+
+/*HEADER*/
+
+.blueTopBar {
+    background-color: #0756bd;
+    height: 25px;
+}
+
+.navbar-nav {
+    text-align: center;
+    justify-self: center;
+}
+
+.logoBmc {
+    justify-self: center;
+}
+/*MAIN */
+
+.carousel {
+    min-height: 750px;
+}
+
+
+.carousel-item img {
+    height: 750px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.carousel-caption  {
+    height: 600px;
+    align-content: center;
+    text-align: start;
+}
+
+.carouselTitle {
+    font-size: 5rem;
+}
+
+
+.row {
+    margin: 0;
+    padding: 50px;
+}
+
+.col {
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: none ;
+}
+
+.card-title {
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+.copyrightContainer {
+    margin: 0 !important;
+    padding: 50px;
+}
+
+.py-5 {
+    padding: 0 0 3.5rem 0 !important;
+
+}
