@@ -82,3 +82,52 @@ footer a {
     padding: 0 0 3.5rem 0 !important;
 
 }
+
+
+/* ABOUT US */ 
+
+.imgAboutUs {
+    height: 810px;
+    width: 50%;
+}
+
+.aboutUs {
+    display: flex;
+}
+
+.parrafoAboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerAboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.tituloAboutUs {
+    font-size: 50px;
+}
+
+@media (max-width: 991px) {
+    .aboutUs {
+        display: grid;
+    }
+
+    .imgAboutUs {
+        height: 100%;
+        width: 100%;
+    }
+
+    .parrafoAboutUs {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .centerAboutUs {
+        width: 100%;
+    }
+}
